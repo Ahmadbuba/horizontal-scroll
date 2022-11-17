@@ -1,0 +1,26 @@
+.scrolling-wrapper-flexbox {
+  display: flex;
+  gap: 10px;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+}
+
+.card {
+  flex: 0 1 auto;
+  background-color: aqua;
+}
+
+.scrolling-wrapper-flexbox::-webkit-scrollbar {
+  display: none;
+}
+
+p :after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  bottom: 50%;
+  width: 50%;
+  height: 30px;
+  background-color: black;
+  width: 30px;
+}

@@ -1,0 +1,17 @@
+.scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+.card {
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  background-color: greenyellow;
+  text-align: center;
+}
+
+.scrolling-wrapper::-webkit-scrollbar {
+  display: none;
+}
